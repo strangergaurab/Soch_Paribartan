@@ -1,14 +1,15 @@
- CREATE TABLE donors_tbl (
-    donor_id INT PRIMARY KEY AUTO_INCREMENT,
-    full_name VARCHAR(255),
-    email VARCHAR(255),
+CREATE TABLE donors_tbl (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
     gender VARCHAR(10),
     phone VARCHAR(15),
     address VARCHAR(255),
-    donation_amount DECIMAL(10,2),
-    donation_month VARCHAR(20),
-    donation_type VARCHAR(20)
+    donation_amount DECIMAL(10, 2),
+    donation_type VARCHAR(20),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
 
 Query of donors_table
 

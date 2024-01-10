@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Soch Pariwartan Nepal</title>
+  <link rel="icon" href="image/logo.jpg" type="image">
+  <link rel="stylesheet" href="Fashion.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" class="">
+  <link rel="stylesheet" href="output.css">
+  <style>
+    /* Apply the following styles to the image */
+    #image {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+    }
+
+    /* Apply the following styles to the container */
+    .image-container {
+        height: 300px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 8px; 
+    }
+    .image-container:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1);
+  transform: translateY(-1%);
+}
+
+/* Additional styles for navigation buttons */
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-10%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.6s ease, box-shadow 0.8s ease;
+  z-index: 1; 
+}
+
+.nav-button-left {
+  left: 10px;
+}
+
+.nav-button-right {
+  right: 10px;
+}
+
+/* Add hover effect */
+.nav-button:hover {
+  transform: scale(1); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+}
+</style>
+</head>
+
+<body>
+<div id="content">
+<!--Heading Section For Navigation Keys -->
+<header class="text-black-900 bg-orange-300 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 md:flex-row items-center">
+    <a href="index.html" class="flex title-font font-medium items-center text-blue-600 mb-4 md:mb-0 ">
+      <img src="image/logo-fotor-20231125235651-removebg-preview.png" fill="none" stroke="currentColor"
+        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-9 h-9 text-white p-2 bg-white rounded-full"
+        viewBox="0 0 24 24" alt="Logo">
+      <span class="ml-3 text-xl font-bold transition-all duration-300 ease-in-out transform hover:scale-105">SOCH PARIWARTAN NEPAL</span>
+    </a>
+    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+    
+
+    </nav>
+    <button
+      class="inline-flex items-center bg-blue-500 border-0 py-1 px-3 focus:outline-none hover:bg-green-700 hover:text-white rounded text-base mt-4 md:mt-0 transition-all duration-300 ease-in-out transform hover:scale-102">JOIN
+      US
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
+  </div>
+</header>
+<!-- Ending Of Heading Section For Navigation Keys-->
+<!--Explanation And Photo Section-->
+</section>
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex mt-5 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2  flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <div class="w-full sm:p-4 px-4 ">
+        <h1 class="title-font font-medium text-xl mb-2 text-gray-900">Welcome to About Us Section Of <a
+                class="text-1xl text-blue-500" href="index.html">Soch Pariwartan Nepal</a></h1>
+        <div class="leading-relaxed">A beacon of positive change ignited by the collective spirit of
+            Nepal's youth. We are not just an organization; we are a movement, driven by the belief that
+            the power of transformation lies within the minds and hearts of the youth. In the heart of
+            Nepal, our diverse group of passionate and driven young individuals has come together under
+            the banner of <a class="text-1xl text-blue-500" href="index.html">Soch Pariwartan Nepal</a> to
+            create waves of change. Our mission is simple yet profound — to empower communities, inspire
+            innovation, and foster a culture of positive transformation.
+        </div>
+    </div>
+    </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-full image-container relative">
+        <button onclick="prevImage()" class="nav-button nav-button-left">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <img id="image" class="object-cover object-center image-container rounded" alt="Soch">
+        <button onclick="nextImage()" class="nav-button nav-button-right">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+  </div>
+  <div class="leading-relaxed mt-5 px-5">As the next generation, we recognize our responsibility to shape the
+    future. <a class="text-1xl text-blue-500" href="index.html">Soch Pariwartan Nepal</a> is more than an
+    organization; it's a community of dreamers, doers, and believers. We strive to break barriers,
+    challenge norms, and bring about meaningful change that resonates far beyond our borders. Every
+    project, initiative, and endeavor we undertake is fueled by a relentless passion for creating a
+    brighter tomorrow.<br><br> Together, we envision a Nepal where every individual has the opportunity
+    to thrive, where innovative solutions tackle age-old challenges, and where the youth are at the
+    forefront of positive change. Join us on this incredible journey. Be part of <a
+        class="text-1xl text-blue-500" href="index.html">Soch Pariwartan Nepal</a> and let's turn our
+    collective dreams into reality. Together, we are the architects of change, and the future is in our
+    hands. Dare to dream. Dare to innovate. Dare to be the change.</div>
+</div>
+</section>
+<!--Ending Of Explanation And Photo Section-->
+<div class="flex items-center justify-center text-center pb-10">
+  <div class="rounded-full overflow-hidden h-16 w-16">
+    <img src="image/logo.jpg" alt="Organization Logo" class="object-cover h-full w-full">
+  </div>
+  <div class="ml-3">
+    <p class="text-xl font-bold text-blue-500">Soch Pariwartan Nepal</p>
+    <p class="text-lg">Shaping Minds, Transforming Lives.</p>
+    <a href="GameHome.html"><button class="mt-8 bg-indigo-500 text-white active:bg-indigo-800 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">Play Game</button></a>
+  </div>
+</div>
+
+
+<!--Footer Section-->
+<footer class="text-gray-600 body-font mt-5 " style="background-color:  #fc6f03; color: white;">
+  <div class="container px-5 mx-auto">
+    <div class="flex flex-wrap  md:text-left text-center order-first">
+      <div class="lg:w-1/3 md:w-1/2   w-full px-4">
+        <a href="PROGRAMS.HTML"><h2 class="title-font underline-on-hover scale-up-on-hover font-bold text-underline  hover:underline text-white tracking-widest text-sm mb-3">PROGRAMS</h2></a>
+        <nav class="list-none  mb-10 ">
+          <li>
+            <a href="PROGRAMS.HTML" class="text-black  hover:underline  text-lg">Awarness Program</a>
+          </li>
+          <li>
+            <a href="PROGRAMS.HTML"  class="text-black hover:underline  text-lg">Blood Donation Program</a>
+          </li>
+          <li>
+            <a href="PROGRAMS.HTML"  class="text-black hover:underline  text-lg" >Deusi Bhailo Program</a>
+          </li>
+          <li>
+            <a href="PROGRAMS.HTML"  class="text-black hover:underline  text-lg">Justice For Program</a>
+          </li>
+          <li>
+            <a href="PROGRAMS.HTML"  class="text-black hover:underline  text-lg">Help Children Program</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/3 md:w-1/2  w-full px-4">
+        <a href="PROGRAMS.HTML"><h2 class="title-font underline-on-hover scale-up-on-hover font-bold text-underline  hover:underline text-white tracking-widest text-sm mb-3">MEMBERS</h2></a>
+        <nav class="list-none mb-10 ">
+          <li>
+            <a href="PROGRAMS.HTML"  class="text-black  hover:underline  text-lg">Administration</a>
+          </li>
+          <li>
+            <a href="PROGRAMS.HTML"  class="text-black hover:underline  text-lg">Executive Head</a>
+          </li>
+          <li>
+            <a href="PROGRAMS.HTML"  class="text-black  hover:underline  text-lg">Program Manager</a>
+          </li>
+          <li>
+            <a href="PROGRAMS.HTML"  class="text-black  hover:underline  text-lg">Others</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/3 md:w-1/2  w-full px-4">
+        <a href="PROGRAMS.HTML"><h2 class="title-font underline-on-hover scale-up-on-hover font-bold text-underline  hover:underline text-white tracking-widest text-sm mb-3">Let Us Help You !</h2></a>
+        <nav class="list-none mb-10 ">
+          <li>
+            <a href="PROGRAMS.HTML"  class="text-black hover:underline  text-lg">Want To Study</a>
+          </li>
+          <li>
+            <a href="PROGRAMS.HTML"  class="text-black hover:underline  text-lg">Want Abroad Study</a>
+          </li>
+          <li>
+            <a href="PROGRAMS.HTML"  class="text-black hover:underline  text-lg">Want To Donate</a>
+          </li>
+          <li>
+            <a href="PROGRAMS.HTML"  class="text-black hover:underline  text-lg">Want To Be Part Of SPN</a>
+          </li>
+        </nav>  
+      </div>
+    </div>
+  </div>
+      
+  <div class="bg-gray-100">
+    <div class="container  mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img src="image/logo-fotor-20231125235651-removebg-preview.png" fill="none" stroke="currentColor"
+        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-9 h-9 text-white p-2 bg-white rounded-full"
+        viewBox="0 0 24 24" alt="Logo">
+        <span class="ml-3 text-xl">SPN</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2023 SPN
+        <a href="https://www.facebook.com/profile.php?id=100092280244159" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@samratthapa</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a href="main.html" class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a href="main.html" class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a href="main.html" class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a href="main.html" class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+</div>
+<!--End Of Footer Section And About US Section-->
+
+<script>
+  // List of image filenames
+  const imageList = [
+      'image/343782845_1627708551010837_1530097465503108517_n.jpg',
+      'image/p13.jpg',
+      'image/p14.jpg',
+      'image/p11.jpg',
+      'image/p10.jpg',
+      'image/p9.jpg',
+      'image/p3.jpg',
+      'image/p7.jpg',
+      'image/p6.jpg',
+      'image/p5.jpg',
+    ];
+
+    let currentImageIndex = 0;
+
+    function showImage(index) {
+      const imageElement = document.getElementById('image');
+      if (imageElement) {
+        imageElement.src = imageList[index];
+        currentImageIndex = index;
+      }
+    }
+
+    function prevImage() {
+      currentImageIndex = (currentImageIndex - 1 + imageList.length) % imageList.length;
+      showImage(currentImageIndex);
+    }
+
+    function nextImage() {
+      currentImageIndex = (currentImageIndex + 1) % imageList.length;
+      showImage(currentImageIndex);
+    }
+
+    // Initial image display
+    showImage(currentImageIndex);
+
+    // Additional script for displaying a random image on page load
+    const randomImage = imageList[Math.floor(Math.random() * imageList.length)];
+    const imageElement = document.getElementById('image');
+    if (imageElement) {
+      imageElement.src = randomImage;
+    }
+</script>
+<script src="main.js"></script>
+</body>
+</html>

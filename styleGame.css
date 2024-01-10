@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    color: black;
+    background-color: aqua;
+     
+}
+.chooseGame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+    margin: 40vmin 0vmin;
+  
+   
+}
+h1{
+    color:black;
+    font-size: 40px;
+    animation: pulse 0.5s ;
+}
+.firstGame{
+   margin: 2rem;
+  
+}
+.games{
+    padding: 10px 35px;
+    background-color: rgb(71, 245, 71);
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 1rem;
+}
+
+#gameTwo{
+    padding: 10px 5px;
+    margin: 0px 10px;
+
+}
+.games:hover{
+    background-color: aquamarine;
+    box-shadow: rgba(0, 0, 0, 0.4);
+    color: rgb(51, 15, 255);
+     
+}
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+      backface-visibility: hidden;
+    }
+  
+    100% {
+      transform: scale(1.1);
+      backface-visibility: hidden;
+    }
+  }
+/*Begining of First Game*/
+
+
+.hide{
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+ #gameTwo {
+  margin-top: 1rem;
+  }
+  }

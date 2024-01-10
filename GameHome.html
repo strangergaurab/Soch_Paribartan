@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Game</title>
+    <link class="style1" rel="stylesheet" href="styleGame.css">
+    <link class="style2" rel="stylesheet" href="game-style.css">
+</head>
+<body>
+<section>
+    <div class="chooseGame">
+        <h1>Choose Game</h1>
+        <div class="firstGame">
+            <button class="game1 games" id="gameOne" >Tic Tac Toe</button>
+            <button class="game1 games" id="gameTwo">Rock Paper Scissor</button>
+        </div>
+       <a href="index.html"><button>Home</button></a>
+    </div>
+</section>
+<!--Tic Tac Toe Game-->
+<main class="ticTacToe hide">
+    <button class="game-Btn">Back</button>
+    <div class="Message-Container hide">
+        <p id="msg">Winner</p>
+        <button id="new-Btn">New Game</button>
+    </div>
+    <div class="draw hide">
+        <p id="draw-mesg">Draw</p>
+        <button id="draw-Btn">Try Again</button>
+    </div>
+<main>
+<h1>Tic Tac Toe</h1>
+<div class="container">
+    <div class="holder">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+    </div>
+</div>
+<button id="reset">Reset Game</button>
+</main>
+</main>
+<!--Scissor Paper Rock Game-->
+<section class="ScissorPaper hide">
+<h1 class="RPSheading">Rock Paper Scissor</h1>
+
+<div class="choices">
+    <div class="choice" id="rock">
+        <img src="image/rock.png">
+    </div>
+    <div class="choice" id="paper">
+        <img src="image/paper.png">
+    </div>
+    <div class="choice" id="scissor">
+        <img src="image/scissors.png">
+    </div>
+</div>
+<div class="scoreBoard">
+    <div class="score">
+        <p id="user-Score">0</p>
+        <p>You</p>
+    </div>
+    <div class="score">
+        <p id="comp-Score">0</p>
+        <p>Comp</p>
+    </div>
+</div>
+<div class="butto">
+    <button id="play-btn">Play Your Game</button>
+    <button class="games-Btn">Back</button>
+</div>
+</section>
+<script src="gameScript.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

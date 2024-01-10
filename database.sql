@@ -8,7 +8,7 @@ CREATE TABLE donors_tbl (
     donation_amount DECIMAL(10, 2),
     donation_type VARCHAR(20),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+);s
 
 
 Query of donors_table
